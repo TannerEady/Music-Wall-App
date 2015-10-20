@@ -4,8 +4,8 @@ class AddTracks < ActiveRecord::Migration
       t.string :title
       t.string :author
       t.string :url
-      t.timestamp :created_at
-      t.timestamp :updated_at
+      t.datetime :created_at
+      t.datetime :updated_at
     end
   end
 end 
